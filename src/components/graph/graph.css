@@ -1,0 +1,26 @@
+.g_axe {
+    fill: transparent;
+    stroke-width: 1px;
+    stroke: black;
+}
+.g_axes_point {
+    stroke: black;
+    stroke-width: 1px;
+    text-anchor: middle;
+    baseline-shift: -0.5ex;
+    font-size: 16px;
+}
+.g_function {
+    fill: transparent;
+    stroke-width: 1px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.g_function:hover {
+    stroke-width: 3px;
+}
+.g_fill {
+    opacity: 0.3;
+    transition: all 1s;
+}
+
